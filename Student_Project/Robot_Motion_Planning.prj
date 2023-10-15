@@ -1,0 +1,262 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="F:\kashif\PhD\2 DOF Research Paper\Kashif Research Paper\matlab SCARA\Robot_Motion_Planning.prj" location="F:\kashif\PhD\2 DOF Research Paper\Kashif Research Paper\matlab SCARA" name="Robot_Motion_Planning" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Robot_Motion_Planning</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\Robot_Motion_Planning\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\GUI exe</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\GUI exe</param.files.only>
+    <param.output>${PROJECT_ROOT}\GUI exe</param.output>
+    <param.logdir>${PROJECT_ROOT}\GUI exe</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Robot_Path_Plan.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\about.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\chi2inv_rtb.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\circle.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\colnorm.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\ishomog.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\ishomog2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\isrot.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\isrot2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\isvec.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\numcols.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\numrows.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\plot2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\plot_ellipse.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\Plucker.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\stlRead.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\tb_optparse.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\common\xaxis.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\contrib\arrow3.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\contrib\pHRIWARE\pHRIWARE.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\contrib\pHRIWARE\VER.txt</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\accel.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\animate.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\cinertia.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\collisions.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\coriolis.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\edit.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\fdyn.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\fellipse.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\fkine.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\friction.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\gencoords.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\genforces.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\gravjac.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\gravload.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\ikcon.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\ikine.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\ikine3.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\ikine6s.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\ikine_sym.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\ikinem.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\ikunc.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\inertia.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\issym.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\itorque.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\jacob0.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\jacob_dot.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\jacobe.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\maniplty.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\nofriction.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\pay.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\paycap.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\perturb.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\plot.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\plot3d.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\private\findjobj.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\qmincon.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\rne.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\rne_dh.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\rne_mdh.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\SerialLink.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\teach.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\trchain.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\@SerialLink\vellipse.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\angvec2r.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\ctraj.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\delta2tr.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\demos\fkine.mlx</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\eul2jac.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\eul2r.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\isunit.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\jtraj.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\Link.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\lspb.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\models\mdl_puma560.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\mstraj.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\plotbotopt.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\Quaternion.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\r2t.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\Revolute.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\rot2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\rpy2jac.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\rpy2r.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\rt2tr.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\RTBPlot.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\RTBPose.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\SE2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\SE3.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\skew.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\skewa.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\SO2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\SO3.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\t2r.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\tr2angvec.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\tr2delta.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\tr2eul.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\tr2rpy.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\tr2rt.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\tranimate.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\tranimate2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\transl.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\transl2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\trexp.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\trexp2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\trinterp.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\trinterp2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\trlog.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\trnorm.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\trplot.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\trplot2.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\trprint.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\Twist.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\unit.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\UnitQuaternion.m</file>
+      <file>C:\Users\faiza\Documents\MATLAB\Add-Ons\Toolboxes\Robotics Toolbox for MATLAB\code\robot\vex.m</file>
+      <file>${PROJECT_ROOT}\check_points.m</file>
+      <file>${PROJECT_ROOT}\checkBaseInCircle.m</file>
+      <file>${PROJECT_ROOT}\checkObstacles.m</file>
+      <file>${PROJECT_ROOT}\col_check.m</file>
+      <file>${PROJECT_ROOT}\col_seg_check.m</file>
+      <file>${PROJECT_ROOT}\createFit.m</file>
+      <file>${PROJECT_ROOT}\dh_robot.m</file>
+      <file>${PROJECT_ROOT}\init_goal.m</file>
+      <file>${PROJECT_ROOT}\joint_correction.m</file>
+      <file>${PROJECT_ROOT}\load_points.m</file>
+      <file>${PROJECT_ROOT}\near_node.m</file>
+      <file>${PROJECT_ROOT}\obstacle.m</file>
+      <file>${PROJECT_ROOT}\path_finding.m</file>
+      <file>${PROJECT_ROOT}\plot_obstacle.m</file>
+      <file>${PROJECT_ROOT}\read_para_dh.m</file>
+      <file>${PROJECT_ROOT}\robot_config.m</file>
+      <file>${PROJECT_ROOT}\workspace.m</file>
+      <file>${PROJECT_ROOT}\write_para_dh.m</file>
+      <file>${PROJECT_ROOT}\write_q_p.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\GUI exe" name="splash.png" optional="false">F:\kashif\PhD\2 DOF Research Paper\Kashif Research Paper\matlab SCARA\GUI exe\splash.png</file>
+      <file location="${PROJECT_ROOT}\GUI exe" name="readme.txt" optional="true">F:\kashif\PhD\2 DOF Research Paper\Kashif Research Paper\matlab SCARA\GUI exe\readme.txt</file>
+      <file location="${PROJECT_ROOT}\GUI exe" name="Robot_Motion_Planning.exe" optional="false">F:\kashif\PhD\2 DOF Research Paper\Kashif Research Paper\matlab SCARA\GUI exe\Robot_Motion_Planning.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
